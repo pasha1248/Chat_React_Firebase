@@ -1,0 +1,41 @@
+/** @format */
+
+.container {
+  width: 45vh;
+  margin: 0 auto;
+  margin-top: 15%;
+
+  h1 {
+    color: wheat;
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+    padding: 20px 20px;
+    margin: auto;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+  }
+
+  .buttonSide {
+    display: flex;
+    justify-content: space-between;
+    button {
+      padding: 20px 20px;
+      border-radius: 20px;
+      font-size: 25px;
+      border: 7px solid rgb(25, 149, 171);
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        background-color: rgb(104, 148, 148);
+        border: 7px solid rgb(172, 243, 255);
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+/** @format */
+
+.container {
+  background-color: #d1f2eb;
+  margin: 10px 5px 10px 15px;
+  border-radius: 20px;
+  padding: 10px;
+  overflow-y: auto;
+
+  .item {
+    width: 95%;
+    margin: 0 auto;
+    border: 0.2px solid #75ada1;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+
+    img {
+      border-radius: 20px;
+    }
+  }
+}

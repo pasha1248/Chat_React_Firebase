@@ -1,0 +1,11 @@
+/** @format */
+
+.content {
+  display: grid;
+  grid-template-rows: 10% 90%;
+}
+
+.chat {
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
